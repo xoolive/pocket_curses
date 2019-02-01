@@ -5,6 +5,7 @@ Usage
 -----
 
 ::
+
   pocket
 
 Press `?` for help, `q` to quit.
@@ -21,6 +22,7 @@ This tool requires Python>=3.6.
 Latest release:
 
 ::
+
   pip3 install pocket-curses
 
   # in case you don't have sufficient permissions
@@ -30,6 +32,7 @@ Latest release:
 Latest version from github:
 
 ::
+
   pip3 install git+https://github.com/xoolive/pocket_curses
 
 License

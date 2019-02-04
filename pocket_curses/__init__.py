@@ -220,7 +220,7 @@ class PocketScreen:
             elif c in [b"a"[0], b"e"[0]]:
                 elt = self.api[self.elt_id]
                 self.api.pocket.archive(elt["item_id"]).commit()
-                self.api.pocket.retrieve()
+                self.api.retrieve()
             elif c in [b"d"[0], b"x"[0]]:
                 self.screen.clear()
                 msg = "Deleted items cannot be recovered. Press 'y' to confirm."
